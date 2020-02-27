@@ -5,7 +5,7 @@ public class saddlePt {
         Scanner ip = new Scanner(System.in);
         System.out.print("Input the row of matrix: ");
         int n = ip.nextInt();
-        int arr[][] = new int[n][n];
+        int[][] arr = new int[n][n];
 
         System.out.print("Input the matrix:\n");
         for(int i=0;i<n;i++){
